@@ -1,0 +1,6 @@
+name: LoopVouchers
+version: 1.0
+main: co.teamloops.loopvouchers.LoopVouchers
+commands:
+ vouchers:
+  description: Base command

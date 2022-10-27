@@ -1,0 +1,50 @@
+Messages:
+  HELP:
+    Message:
+      Enabled: true
+      Value:
+      - "&8&m-----------------------------------"
+      - " "
+      - "&e&lLoop&6&lVouchers &8&l┃ &eHelp"
+      - "&7&oCoded and configured by &f&oSefovski"
+      - " "
+      - "&6&lCOMMANDS:"
+      - "&6&l» &e/vouchers give <player> <voucher> <amount>"
+      - "&6&l» &e/vouchers help"
+      - " "
+      - "&6&lPERMISSIONS:"
+      - "&6&l» &evouchers.admin"
+      - " "
+      - "&8&m-----------------------------------"
+  NO-PERMISSION:
+    Message:
+      Enabled: true
+      Value:
+      - "&4&l[&c&l!&4&l]&c You do not have permission to execute this command!"
+  VOUCHER-GIVEN:
+    Message:
+      Enabled: true
+      Value:
+      - "&2&l[&a&l!&2&l]&a You have given &f%amount%x&a &f%voucher%&a to &f%player%&a!"
+  VOUCHER-RECEIVED:
+    Message:
+      Enabled: true
+      Value:
+      - "&2&l[&a&l!&2&l]&a You have received &f%amount%x&a of &f%voucher%&a!"
+Vouchers:
+  BURGER:
+    Permission: "vouchers.useall"
+    Commands:
+    - "eco give %player% 500"
+    Effects:
+    - "INCREASE_DAMAGE;2"
+    Item:
+      Material: "BREAD"
+      Name: "&6&l[&e&l!&6&l]&e Cheeseburger &7(Right-Click)"
+      Lore:
+      - " "
+      - "&eInformation"
+      - "&e❚ &7Effects: &fStrength II"
+      - "&e❚ &7Money Reward: &2$&a500"
+      - " "
+      - "&7&o(( Right-Click to consume! ))"
